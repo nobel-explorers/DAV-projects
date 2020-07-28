@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chart.js Starter App</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import Chart.js library via CDN, per Chart.js documentation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"
+      defer
+    ></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+
+    <script src="/script.js" defer></script>
+
+    <script src="/users.js" defer></script>
+  </head>
+  <body>
+    <h1>Apple Inc.'s Data Visualized!</h1>
+    <div class="chart-container">
+      <canvas
+        id="lineChart"
+        aria-label="A line chart showing continental population"
+        role="img"
+      >
+      </canvas>
+      <p>
+        Our data came from 
+        <a href="https://www.macrotrends.net/stocks/charts/AAPL/apple/revenue"
+           >here</a>!
+        <br><br />
+      </p>
+    </div>
+    <div class="chart-container">
+      <canvas
+        id="barChart"
+        aria-label="A line chart showing continental population"
+        role="img"
+      >
+      </canvas>
+    </div>
+    <p>
+      Our data is collected from 
+      <a href="https://www.youtube.com/watch?v=MMyMB4zm9so">here !</a>
+
+    </p>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
+
